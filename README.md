@@ -48,6 +48,11 @@ from backend import models
 @admin.register(models.User)
 class User(admin.ModelAdmin):
     list_display = ('username', 'id')
+    
+    
+@admin.register(models.Book)
+class Book(admin.ModelAdmin):
+    list_display = ('name', 'author')
 
 
 def auto_discover_models(app_models):
