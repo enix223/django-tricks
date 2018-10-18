@@ -4,8 +4,8 @@ Some tricks for django developing
 
 ## Auto disocver app models
 
-You may have lot of models defined in your `models.py` fields, and want to leverage the admin site to help you manage yor models.
-But it need repeated work to define every models in your `admin.py`, to let admin dicover the models.
+You may have lot of models defined in your `models.py` file, and want to leverage the admin site to help you manage yor models.
+But it need repeated work to define every models in your `admin.py` file, so that the admin package can dicover these models.
 
 You can now use the following scripts to auto disover your models:
 
