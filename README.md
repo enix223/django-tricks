@@ -1,6 +1,9 @@
 # django-tricks
 Some tricks for django developing
 
+Catalogs
+
+* [Auto disocver app models](#auto-disocver-app-models)
 
 ## Auto disocver app models
 
